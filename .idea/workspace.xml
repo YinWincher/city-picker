@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f995f9ed-0cbc-41fe-a64f-4b5ecf6c5b8b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/CityPanel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/city-select.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mockDate/areas.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mockDate/provinces.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/city-select.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/city-select.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,15 +48,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="605" lean-forward="true" selection-start-column="605" selection-end-column="605" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CityPanel.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/component/CityPanel.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -68,14 +57,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="city-select.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="city-select.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/css/city-select.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            <state relative-caret-position="168">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="e#387#395#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -102,9 +100,10 @@
         <option value="$PROJECT_DIR$/src/component/CityPanel.js" />
         <option value="$PROJECT_DIR$/src/component/City.js" />
         <option value="$PROJECT_DIR$/src/component/CitySelect.js" />
-        <option value="$PROJECT_DIR$/src/css/city-select.css" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/css/city-select.css" />
       </list>
     </option>
   </component>
@@ -211,12 +210,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528041449004</updated>
-      <workItem from="1528041450752" duration="24706000" />
+      <workItem from="1528041450752" duration="25308000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24706000" />
+    <option name="totallyTimeSpent" value="25308000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -367,16 +366,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/city-select.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="e#387#395#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/CitySelect.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1266">
@@ -397,6 +386,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="483" selection-start-column="483" selection-end-column="483" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -407,10 +403,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="605" lean-forward="true" selection-start-column="605" selection-end-column="605" />
+        <state relative-caret-position="196">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/city-select.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#387#395#0" />
+          </folding>
         </state>
       </provider>
     </entry>
