@@ -1,0 +1,72 @@
+.wrapper .top{
+    text-align: left;
+    height: 5vh;
+    position: relative;
+    font-size: 16px;
+}
+.wrapper .top .dis{
+    padding-right: 20px;
+}
+.wrapper .top .icon{
+    color:#f60;
+    position: absolute;
+    right: 20px;
+}
+.wrapper .input-button{
+    width: 100vw;
+    text-align: left;
+}
+
+.city-panel{
+    position: absolute;
+    width: 100vw;
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+    overflow: hidden;
+}
+.city-panel .header{
+    height: 53vh;
+    background: rgba(0,0,0,.2);
+
+}
+
+.city-panel .select-panel{
+    /*height: 60vh;*/
+    /*width: 100vw;*/
+    /*bottom: 0;*/
+    /*overflow: auto;*/
+    /*position: absolute;*/
+}
+.city-panel .select-panel .panel-header{
+    position: absolute;
+    width: 100vw;
+    bottom: 40vh;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    height: 4vh;
+}
+.city-panel .select-panel .panel-header li{
+    list-style: none;
+    flex: 1;
+    /*width: 20px;*/
+    display: inline-block;
+}
+.city-panel .select-panel .panel-list{
+    padding-left: 20px;
+    position: absolute;
+    bottom: 0;
+    height: 40vh;
+    width: 100vw;
+    text-align: left;
+    overflow: scroll;
+    margin: 0;
+}
+.city-panel .select-panel .panel-list li{
+    list-style: none;
+}
+.city-panel .select{
+    color:#f60;
+
+}
