@@ -48,7 +48,6 @@ export default function City(props) {
                 </ul>
                 <ul className="panel-list">
                     {funcFromShow[show](data[getDateList[show]].id).map(val=>{
-                        // console.log(val.text,data[s])
                         return (
                             <li
                                 data-name={val.text}

@@ -130,14 +130,13 @@ class CitySelect extends React.Component{
 
     }
     render(){
-        const {show,province,city,district,street,data,showPanel,val} = this.state;
-
+        const {show,data,showPanel,val} = this.state;
         return (
             <div className="wrapper" >
-                <div className={'top'} onClick={this.onShowPanel}>
-                    <span className={'dis'}>所在地区</span>
-                    <span className={'input-button'}>{val}</span>
-                    <span className={'icon'}> > </span>
+                <div className='top' onClick={this.onShowPanel}>
+                    {/*<span className={'dis'}>所在地区</span>*/}
+                    <span className={'input-button'}>{val||'所在地区'}</span>
+                    {/*<span className={'icon'}> > </span>*/}
                 </div>
                 {showPanel ?
                     <CityPanel
@@ -148,10 +147,6 @@ class CitySelect extends React.Component{
                         onProvinceChange={this.onProvinceChange}
                         onCityChange={this.onCityChange}
                         onDistrictChange={this.onDistrictChange}
-                        province={province}
-                        city={city}
-                        district={district}
-                        street={street}
                     />
                     : ''
                 }
